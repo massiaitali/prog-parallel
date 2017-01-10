@@ -1,0 +1,6 @@
+#Commande 
+module avail
+module load mpi/openmpi...
+
+mpicc ./file.c -o exec
+mpirun -np [nb] ./exec
