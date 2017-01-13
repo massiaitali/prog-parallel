@@ -19,7 +19,7 @@ void displayMatrix(unsigned long M, unsigned long N, unsigned long* matrix)
 
   for (m=0; m<M; m++) {
     for (n=0; n<N; n++) {
-      printf("%d ", matrix[m * N + n]);
+      printf("%ld ", matrix[m * N + n]);
     }
 
     printf("\n"); 
